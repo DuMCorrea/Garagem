@@ -329,7 +329,7 @@ body {
     flex-wrap: nowrap; /* Não permite quebra de linha, todos os cards na mesma linha */
     gap: 8px; /* Espaçamento entre os cards */
     margin-top: 20px; /* Espaçamento acima dos cards */
-    margin-left: 50px; /* Espaçamento à esquerda da div para mover os cards mais para a direita */
+    margin-left: 30px; /* Espaçamento à esquerda da div para mover os cards mais para a direita */
     overflow-x: auto; /* Permite rolagem horizontal se os cards não cabem na tela */
 }
 
@@ -390,26 +390,31 @@ body {
     margin-bottom: 3px; /* Espaçamento abaixo do código */
 }
 
-.imagem-lateral {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 25px; /* Ajuste o tamanho conforme necessário */
-    height: auto;
-    background: none; /* Remove o fundo do botão */
-    border: none; /* Remove a borda do botão */
-    padding: 0; /* Remove o padding do botão */
-    cursor: pointer; /* Muda o cursor para indicar que é um botão */
+
+
+/* Estilo para a seta esquerda */
+.seta-esquerda {
+    width: 30px; /* Ajuste o tamanho conforme necessário */
+    height: 30px;
+    cursor: pointer; /* Indica que a seta é clicável */
+    align-self: center; /* Centraliza verticalmente a seta em relação aos cards */
+    margin-right: 10px; /* Espaçamento entre a seta e o primeiro card */
 }
 
-.imagem-lateral-esquerda {
-    left: 0; /* Posiciona a imagem à esquerda dos cards */
-    margin-left: 435px; /* Ajusta a distância da imagem em relação ao contêiner */
-    margin-top: 275px;
+/* Estilo para a seta direita */
+.seta-direita {
+    width: 30px; /* Ajuste o tamanho conforme necessário */
+    height: 30px;
+    cursor: pointer; /* Indica que a seta é clicável */
+    align-self: center; /* Centraliza verticalmente a seta em relação aos cards */
+    margin-left: 10px; /* Espaçamento entre a seta e o último card */
+}
+/* Estilo para a nova seção de cards */
+.fundo-cards {
+    display: flex; /* Organiza as setas e os cards na horizontal */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: center; /* Centraliza o conteúdo */
 }
 
-.imagem-lateral-direita {
-    right: 0; /* Posiciona a imagem à direita dos cards */
-    margin-right: 60px; /* Ajusta a distância da imagem em relação ao contêiner */
-    margin-top: 275px;
-}
+
+

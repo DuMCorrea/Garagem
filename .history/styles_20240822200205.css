@@ -389,27 +389,3 @@ body {
     font-size: 16px; /* Tamanho da fonte ajustado */
     margin-bottom: 3px; /* Espaçamento abaixo do código */
 }
-
-.imagem-lateral {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 25px; /* Ajuste o tamanho conforme necessário */
-    height: auto;
-    background: none; /* Remove o fundo do botão */
-    border: none; /* Remove a borda do botão */
-    padding: 0; /* Remove o padding do botão */
-    cursor: pointer; /* Muda o cursor para indicar que é um botão */
-}
-
-.imagem-lateral-esquerda {
-    left: 0; /* Posiciona a imagem à esquerda dos cards */
-    margin-left: 435px; /* Ajusta a distância da imagem em relação ao contêiner */
-    margin-top: 275px;
-}
-
-.imagem-lateral-direita {
-    right: 0; /* Posiciona a imagem à direita dos cards */
-    margin-right: 60px; /* Ajusta a distância da imagem em relação ao contêiner */
-    margin-top: 275px;
-}

@@ -410,6 +410,6 @@ body {
 
 .imagem-lateral-direita {
     right: 0; /* Posiciona a imagem à direita dos cards */
-    margin-right: 60px; /* Ajusta a distância da imagem em relação ao contêiner */
+    margin-right: 50px; /* Ajusta a distância da imagem em relação ao contêiner */
     margin-top: 275px;
 }

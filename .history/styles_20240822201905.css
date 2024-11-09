@@ -394,12 +394,12 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 25px; /* Ajuste o tamanho conforme necessário */
+    width: 20px; /* Reduzi o tamanho da largura */
     height: auto;
-    background: none; /* Remove o fundo do botão */
-    border: none; /* Remove a borda do botão */
-    padding: 0; /* Remove o padding do botão */
-    cursor: pointer; /* Muda o cursor para indicar que é um botão */
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
 }
 
 .imagem-lateral-esquerda {
@@ -410,6 +410,6 @@ body {
 
 .imagem-lateral-direita {
     right: 0; /* Posiciona a imagem à direita dos cards */
-    margin-right: 60px; /* Ajusta a distância da imagem em relação ao contêiner */
+    margin-right: 55px; /* Ajusta a distância da imagem em relação ao contêiner */
     margin-top: 275px;
 }
